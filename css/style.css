@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-height: 100vh;
+    color: black;
+    background-color: whitesmoke;
+}
+
+header{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #00a2ff;
+    color: whitesmoke;
+    width: 100%;
+    height: 6.4rem; 
+}
+
+.logo, img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 8rem;
+}
+
+#ranking{
+    width: 5rem;
+    height: 4rem;
+}
+
+.logo, p{
+    margin-left: 1rem;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.jogo{
+    display: flex;
+    background-color: #00a2ff10;
+    flex-direction: column;
+    padding: 3rem;
+    margin: 2rem;
+    border: solid rgba(128, 128, 128, 0.034) 1px;
+    height: 35rem;
+    width: 18rem;
+    border-radius: 1rem;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.7rem;
+    color: #0082ce;
+    font-weight: bolder;
+    flex-wrap: nowrap;
+    padding-bottom: 2rem;
+}
+
+.regras{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    height: 15rem;
+    align-self: flex-start;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#imgJ{
+    text-align: center;
+    width: 10rem;
+    height: 10rem;
+}
+
+
+.botao{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #00a2ff;
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #00a2ff;
+    color: whitesmoke;
+    width: 100%;
+    height: 5rem;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    display: inline;
+    justify-content: space-evenly;
+    margin-right: 3.12rem;
+
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+
+@media (max-width:1700px){
+    .jogo{
+        width: 13rem;
+    }
+
+}
+
+@media (max-width:391px){
+
+    .logo{
+        font-size: 1rem;
+        justify-content: flex-start;
+    }
+
+    .logo, img{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 4rem;
+        height: 2rem;
+    }
+
+    .cadastro{
+        display: flex;
+        font-size: 0.8rem;
+        align-items: center;
+        width: 4rem;
+        height: 2rem;
+    }
+
+    .jogo{
+        width: 13rem;
+        height: 30rem;
+        margin: 1rem;
+    }
+
+}

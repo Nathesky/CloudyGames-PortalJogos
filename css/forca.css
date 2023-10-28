@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-height: 100vh;
+    color: black;
+    background-color: whitesmoke;
+}
+
+header{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #00a2ff;
+    color: whitesmoke;
+    width: 100%;
+    height: 6.4rem; 
+}
+
+.logo, img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 8rem;
+}
+
+#ranking{
+    width: 5rem;
+    height: 4rem;
+}
+h1{
+    color: #00a2ff;
+    margin-bottom: 1rem;
+}
+
+main{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 10rem;
+    height: 2rem;
+    border: 1px solid #00a2ff;
+    outline: none;
+    font-size: 1.3rem;
+    border-radius: 14px;
+}
+
+.forca{
+    margin: 2vw auto;
+    width: 60%;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.blank{
+    border-bottom: 2px solid #000;
+    width: 20%;
+    margin: 2px 1vw;
+}
+
+#resposta{
+    margin-top: 3vw;
+}
+
+#chances{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0.3rem;
+    margin: 1rem;
+    border: 2px solid  orangered;
+    outline: 1px solid #fff;
+}
+
+
+#ghost, #ghostword{
+    display: none;
+}
+
+.blank h1{
+    font-size: 4vw;
+}
+
+button{
+    background-color: #00a2ff;
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#acerto{
+    color: lightgreen;
+}
+
+#error{
+    color: orangered;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #00a2ff;
+    color: whitesmoke;
+    width: 100%;
+    height: 5rem;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    display: inline;
+    justify-content: space-evenly;
+    margin-right: 3.12rem;
+
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}

@@ -1,0 +1,11 @@
+LOGIN ADMINISTRADOR:
+nome: adm
+senha: senha
+
+LOGIN DE UM USUÁRIO:
+nick: nick
+senha: senha
+
+
+
+(infelizmente não consegui fazer o placar/ranking)

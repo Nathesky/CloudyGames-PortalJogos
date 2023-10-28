@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-height: 100vh;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #00a2ff;
+    color: whitesmoke;
+    width: 100%;
+    height: 6.4rem;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#logo img {
+    width: 8rem;
+}
+
+#logo p {
+    margin-left: 1rem;
+    user-select: none;
+}
+ 
+#logo .hover {
+    display: none;
+}
+
+#logo:hover .normal {
+    display: none;
+}
+
+#p-header:hover{
+    color: red;
+}
+
+#logo:hover .hover {
+    display: block;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+main{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #00a2ff;
+    font-weight: bolder;
+}
+
+hr{
+    margin-bottom: 1rem;
+    border: solid 1px #00a2ff;
+}
+
+#submit{
+    cursor: pointer;
+    background-color:  #00a2ff;
+    border: none;
+    color: whitesmoke;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+#voltar{
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    color: #00a2ff;
+    font-size: 1.5rem;
+    width: 8rem;
+    height: 4.5rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+
+.cadastro input[type="submit"],
+.cadastro a {
+    display: inline;
+    justify-content: space-around;
+}
+
+.cadastro a{
+    margin-left: 4rem;
+}
+
+.cadastro {
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+input {
+    margin-bottom: 10px;
+    display: block;
+    width: 20rem;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid #00a2ff;
+    outline: none;
+    font-size: 1rem;
+}
+input:focus::placeholder {
+    color: transparent;
+    background-color: #00a2ff27;
+    font-family: 'Montserrat', sans-serif;
+}
+.sucesso{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    color: green;
+  }
+
+  .errorNome, .errorSenha{
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    color: red;
+    font-size: 7pt;
+}
